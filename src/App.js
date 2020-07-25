@@ -14,7 +14,7 @@ import { Vote } from "./components/Vote";
 import "./App.css";
 import { SmileOutlined } from "@ant-design/icons";
 
-const ENDPOINT = "localhost:5000";
+const ENDPOINT = "https://server-135813.herokuapp.com/";
 let socket;
 
 const App = () => {
