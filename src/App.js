@@ -9,7 +9,6 @@ import { Cards } from "./components/Cards/Cards";
 import { Room } from "./components/Room/Room";
 import { Results } from "./components/Results/Results";
 import { Footer } from "./components/Footer/Footer";
-import { Vote } from "./components/Vote";
 
 import "./App.css";
 import { SmileOutlined } from "@ant-design/icons";
@@ -190,8 +189,6 @@ const App = () => {
           </div>
         )}
       />
-
-      <Route path='/vote' component={Vote} />
     </Router>
   );
 };
