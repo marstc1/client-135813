@@ -1,0 +1,260 @@
+@import "~antd/dist/antd.css";
+
+.container {
+  width: 750px;
+  width: 970px;
+  width: 1170px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* Typography */
+
+h1,
+h2,
+h3,
+h4.ant-typography {
+  color: #00b2b2;
+}
+
+h4.ant-typography {
+  font-size: 1em;
+}
+
+/* Links */
+
+a {
+  color: #00b2b2;
+}
+
+a:hover {
+  color: #00d5d5;
+}
+
+/* Form Elements */
+
+.ant-input-affix-wrapper {
+  border-radius: 0.5rem;
+}
+
+.ant-input-prefix {
+  margin-right: 10px;
+  padding-right: 6px;
+  border-right: 1px solid #888;
+}
+
+.ant-divider,
+.ant-divider-horizontal.ant-divider-with-text::before,
+.ant-divider-horizontal.ant-divider-with-text::after {
+  border-top-color: #ccc;
+}
+
+.ant-checkbox-checked .ant-checkbox-inner {
+  background-color: #00b2b2;
+  border-color: #00b2b2;
+}
+
+/* Buttons */
+
+.ant-btn {
+  border-radius: 0.5rem;
+}
+
+.ant-btn-primary {
+  color: #fff;
+  background-color: #00b2b2;
+  border-color: #ccc;
+  font-weight: bold;
+}
+
+.ant-btn-primary:hover,
+.ant-btn-primary:active,
+.ant-btn-primary:focus {
+  background-color: #00d5d5;
+  border-color: #ccc;
+}
+
+/* Lists */
+
+ul {
+  list-style: square;
+  padding-left: 1.5rem;
+}
+
+/* Layout */
+
+.header {
+  padding: 1em 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.header h1 {
+  margin: 0;
+}
+
+.header .logo {
+  width: 128px;
+  height: 120px;
+}
+
+.content {
+  background-color: #efefef;
+}
+
+.content.ant-row {
+  padding: 2em 0;
+}
+
+.content .btn-card {
+  border: 3px solid #ccc;
+  color: #555;
+  font-size: 5em;
+  font-weight: bold;
+  height: 10rem;
+  margin: 0 0.5rem 1rem;
+  width: 7rem;
+}
+
+.content .btn-card:hover,
+.content .btn-card:active {
+  border-color: #bbb;
+  color: #00b2b2;
+}
+
+.content .ant-list-header,
+.ant-card-head {
+  background-color: #00b2b2;
+  color: #fff;
+  font-size: 1.1em;
+  font-weight: bold;
+}
+
+.content .ant-list-bordered,
+.ant-card-bordered {
+  border: 2px solid #cccccc;
+  background-color: white;
+  border-radius: 0.5em;
+  font-weight: bold;
+}
+
+.footer {
+  padding: 2em 0;
+  border-top: 1px solid #ddd;
+}
+
+.footer h4 {
+  width: 100%;
+  margin-top: 0.5rem;
+}
+
+/* Login Modal */
+
+.ant-modal-mask {
+  background-color: #555;
+}
+
+.login-modal .ant-modal-content {
+  background-color: #efefef;
+  box-shadow: 0px 0px 15px 0px;
+}
+
+.login-modal .logo {
+  background-image: url(./images/logo-hr.gif);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 100px;
+  margin: auto;
+}
+
+.login-modal .logo span {
+  display: none;
+}
+
+/* Login Form */
+
+.login-form .ant-row {
+  margin: 0.5rem 0;
+}
+
+.login-form-button {
+  width: 100%;
+}
+
+.login-form .cards-container .ant-col {
+  text-align: center;
+}
+
+.login-form .cards-container .ant-col .ant-checkbox + span {
+  padding: 0;
+}
+
+.login-form .checkbox-card.ant-checkbox-wrapper {
+  margin: 1rem 0 0;
+  width: 75%;
+  border: 2px solid #ccc;
+  background-color: #ddd;
+  border-radius: 0.5rem;
+  text-align: center;
+  line-height: 3rem;
+  color: #ccc;
+  font-weight: bold;
+  transition: cubic-bezier(1, 0, 0, 1);
+}
+
+.login-form .checkbox-card.ant-checkbox-wrapper-checked {
+  color: white;
+  background-color: #00b2b2;
+}
+
+.login-form .checkbox-card.ant-checkbox-wrapper:hover {
+  color: white;
+  background-color: #00d5d5;
+}
+
+.login-form .checkbox-card.ant-checkbox-wrapper:active {
+  color: #ccc;
+  background-color: #eee;
+  border-color: #ccc;
+}
+
+.login-form .checkbox-card .ant-checkbox {
+  display: none;
+}
+
+/* Utils */
+
+.right {
+  float: right;
+}
+
+.pad-left {
+  padding-left: 24px;
+}
+
+.small {
+  font-size: 0.8em;
+}
+
+.strong {
+  font-weight: bold;
+}
+
+/* Media Queries */
+
+@media (max-width: 375px) {
+  .header .container {
+    text-align: center;
+  }
+
+  .header .logo {
+    width: 200px;
+    height: 190px;
+    margin-bottom: 1rem;
+  }
+
+  .content .btn-card {
+    width: 5rem;
+    height: 7rem;
+    font-size: 2.5em;
+  }
+}
